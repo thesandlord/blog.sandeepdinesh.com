@@ -1,4 +1,4 @@
-baseURL = "http://blog.sandeepdinesh.com/"
+baseURL = "https://blog.sandeepdinesh.com/"
 languageCode = "en-us"
 title = "Sandeep's Blog"
 theme = "hugo_theme_pickles"

@@ -1,7 +1,7 @@
 ---
 title: "Moving EZSchool.com to Google Cloud Platform"
 date: 2019-07-15T15:00:08-07:00
-draft: true
+draft: false
 tags: ["Migration", "Google Cloud Platform", "PHP", "Containers", "Modernization"]
 ---
 
