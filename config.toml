@@ -1,0 +1,49 @@
+baseURL = "http://blog.sandeepdinesh.com/"
+languageCode = "en-us"
+title = "Sandeep's Blog"
+theme = "hugo_theme_pickles"
+author = "Sandeep Dinesh"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright Sandeep Dinesh"
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "@sandeepdinesh"
+  github = "thesandlord"
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+  author = "Sandeep Dinesh"
+  authorwebsite = "sandeepdinesh.com"
+  avatar = "https://storage.googleapis.com/test-sandeep-permissions-demo/DSC_6879.jpg"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "I do things with computers..."
+  # Logo image. This is displayed ogp image.
+  logo = "/path/to/logo"
+  favicon = "/path/to/favicon"
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = true
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"
