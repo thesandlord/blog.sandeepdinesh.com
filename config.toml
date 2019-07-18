@@ -13,7 +13,7 @@ copyright = "&copy; Copyright Sandeep Dinesh"
   twitter = "@sandeepdinesh"
   github = "thesandlord"
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "UA-144177508-1"
   author = "Sandeep Dinesh"
   authorwebsite = "sandeepdinesh.com"
   avatar = "https://storage.googleapis.com/test-sandeep-permissions-demo/DSC_6879.jpg"
